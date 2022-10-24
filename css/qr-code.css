@@ -1,0 +1,89 @@
+/* import font family 'Outfit' from Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');  */
+
+/* initial font wasnot working after uploading to github */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-Medium.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Reset default browser settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 25%;
+    height: 85vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 20px hsl(220, 2%, 32%);
+}
+
+.qrc-image {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qrc-text {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.qrc-text p {
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.qrc-text p:last-of-type {
+    font-size: .8rem;
+    padding-top: 10px;
+    color: hsl(212, 45%, 89%);
+    font-weight: 400;
+}
+
+@media(max-width: 720px) {
+
+    .container {
+        width: 35%;
+        height: 80vh;
+    }
+    
+}
+
+@media(max-width: 375px) {
+
+    .container {
+        width: 60%;
+        height: 80vh;
+    }
+    
+}
