@@ -50,6 +50,7 @@ img {
     font-weight: 400;
 }
 
+/* Media queries */
 @media(max-width: 720px) {
 
     .container {
