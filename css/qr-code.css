@@ -1,0 +1,67 @@
+/* Reset default browser settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 20px hsl(220, 2%, 32%);
+}
+
+.qrc-image {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qrc-text {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.qrc-text h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.qrc-text p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: hsl(212, 45%, 89%);
+    font-weight: 400;
+}
+
+@media(max-width: 720px) {
+
+    .container {
+        width: 40%;
+    }
+    
+}
+
+@media(max-width: 375px) {
+
+    .container {
+        width: 60%;
+    }
+    
+}
