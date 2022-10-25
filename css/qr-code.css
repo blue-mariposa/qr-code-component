@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ img {
 .qrc-text p {
     font-size: 15px;
     padding-top: 10px;
-    color: hsl(212, 45%, 89%);
+    color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
 
