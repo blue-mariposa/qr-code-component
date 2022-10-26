@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-This project was built with accessibility in mind. Did research on suitable tags and attributes that would be accessible to screen readers. The project made provision for two screen widths but i added a 720px width to make it responsive at that scrren size. Decided to use main and section tags instead of div tag beacasue divs and spans annot be read by screen readers.
+This project was built with accessibility in mind. Did research on suitable tags and attributes that would be accessible to screen readers. Decided to use main and section tags instead of div tag beacasue divs and spans cannot be read by screen readers.
 
 ### Screenshot
 
@@ -53,6 +53,7 @@ This project was built with accessibility in mind. Did research on suitable tags
 
 - The <div> and <span> tags are not html semantic tags meaning they cannot be read by screen readers.
 - Learned the correct application of the <header>, <main>, <section> tags.
+- Section elements require a heading tag. i did not include one for the image because it would only contain an image.
 - Even if i do not place the paragraphs in their own section i could still style them to achieve the same style.
 - I learned and practiced some grid layout styles.
 - learned how to import a font and also download the font to use it offline in my project(s).
@@ -99,4 +100,6 @@ body {
 
 - Thanks to Frontend Mentor for the guide(s).
 
--Thanks to Jessica of 'Coder Coder'. Learned something on how to plan and research for a project or task mfrom her video 'Build a light/dark dashboard' - [Link](https://www.youtube.com/watch?v=iL4irerdGdU).
+- Thanks to Jessica of 'Coder Coder'. Learned something on how to plan and research for a project or task mfrom her video 'Build a light/dark dashboard' - [Link](https://www.youtube.com/watch?v=iL4irerdGdU).
+
+- Thanks to @MelvinAguilar for your comment and suggestions [Link](https://www.frontendmentor.io/profile/MelvinAguilar).
